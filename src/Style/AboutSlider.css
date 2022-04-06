@@ -12,6 +12,7 @@
     margin: 0% 8%;
 }
 .about__left {
+    background: #06090E;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 500px;
     overflow: auto;
@@ -21,10 +22,11 @@
     border-top-left-radius: 15px;
     float: left;
     width: 30%;
-    background: #FDCB6E;
-    padding: 40px;
+    padding: 30px;
     box-shadow: 2px 8px 6px rgb(0 0 0 / 10%);
+
 }
+
 .ab-profile-img {
     width: 200px;
     height: 200px;
@@ -32,7 +34,7 @@
     box-shadow: 2px 8px 6px rgb(0 0 0 / 10%);
 }
 .profile-worker__name {
-    color: #444;
+    color: #fff;
     text-transform: capitalize;
     font-size: 32px;
     font-weight: 600;
@@ -41,7 +43,7 @@
 }
 .ab-socal__link {
     list-style: none;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .ab-socal__link a{
     padding: 4px 10px;
@@ -56,15 +58,17 @@
 }
 .profile-work__title{
     font-size: 18px;
-    color: #000;
+    color: #ddd;
     font-weight: 600;
 }
 .about__left p{
     margin-top: 20px;
-    color: #888;
+    color: rgb(184, 184, 184);
 }
 .about__right {
-    background: #6ea0fd;
+    background: #D8E6E6;
+/* background: linear-gradient(90deg, rgba(6,9,14,1) 0%, rgba(6,9,14,1) 14%, rgba(17,58,76,1) 100%); */
+    position: relative;
     width: 70%;
     float: right;
     padding: 40px;
@@ -75,10 +79,12 @@
     border-bottom-right-radius: 15px;
     box-shadow: 2px 8px 6px rgb(0 0 0 / 10%);
 }
+
 .about__content-btn {
     text-align: center;
-    background: #FDCB6E;
-    border-radius: 10px;
+    background: #0a455e;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .about__content-btn li {
     display: inline-block;
@@ -86,7 +92,7 @@
 .about-link-btn {
     text-decoration: none;
     padding: 8px 20px;
-    color: rgb(151, 146, 146);
+    color: #FFF;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;

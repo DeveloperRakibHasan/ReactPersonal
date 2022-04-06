@@ -1,5 +1,5 @@
 .about-content__area {
-    color: #FFF;
+    color: #000;
     margin-top: 50px;
 
 }
@@ -19,13 +19,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 30px;
     font-size: 18px;
-    color: rgb(238, 238, 238);
+    color: #0a2f3f;
 }
 .about-content__table {
     margin-top: 100px;
     display: flex;
     justify-content: center;
-    color: #FFF;
+    color: #000;
 }
 .about-content__table table{
     font-family: 'M PLUS 2', sans-serif;
@@ -40,7 +40,7 @@
   
 }
 .about-content__table tr:nth-child(even){
-    background-color: #80b1fe;
+    background-color: #fff;
     /* box-shadow: 2px 8px 6px rgb(0 0 0 / 10%); */
     border-radius: 10px;
 }

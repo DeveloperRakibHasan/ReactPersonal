@@ -13,8 +13,8 @@ function AboutNavbar() {
                                  to="/about"
                                  className="about-link-btn"
                                  activeStyle={{
-                                     background: "#6ea0fd",
-                                     color: "#fff"
+                                     background: "#D8E6E6",
+                                     color: "#000"
                                 }}
                                   >
                                     About
@@ -26,8 +26,8 @@ function AboutNavbar() {
                                  to="/expercontent"
                                  className="about-link-btn"
                                  activeStyle={{
-                                    background: "#6ea0fd",
-                                     color: "#fff"
+                                    background: "#D8E6E6",
+                                     color: "#000"
                                 }}
                                   >
                                     experience
@@ -39,8 +39,8 @@ function AboutNavbar() {
                                  to="/aboutcontact"
                                  className="about-link-btn"
                                  activeStyle={{
-                                    background: "#6ea0fd",
-                                     color: "#fff"
+                                    background: "#D8E6E6",
+                                     color: "#000"
                                 }}
                                   >
                                     Contact

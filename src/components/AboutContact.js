@@ -8,7 +8,7 @@ function AboutContact() {
             <form>
                 <input type="text" placeholder="Your Name"></input>
                 <input type="email" placeholder="Your E-mail"></input>
-                <input type="text" placeholder="Your Message" className="sms"></input> <br></br>
+                <textarea rows="4" cols="65" className="sms" name="comment" form="usrform" placeholder="Your message..."></textarea> <br></br>
                 <button className="btn-abcon">Sent</button>
             </form>
         </div>

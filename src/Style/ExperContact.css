@@ -1,0 +1,22 @@
+.programming{
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.programming .progressbar__title{
+    color: #000;
+    
+}
+.about__work__experience{
+    margin-top: 60px;
+}
+.about__work__experience .work__experience{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background-color: rgb(255 255 255 / 70%);
+    box-shadow: 9px 18px 40px -17px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 9px 18px 40px -17px rgba(0,0,0,0.74);
+    -moz-box-shadow: 9px 18px 40px -17px rgba(0,0,0,0.74);
+}
